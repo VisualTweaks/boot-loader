@@ -1,0 +1,55 @@
+mov ah, 0x0e
+mov al, 72 
+int 0x10
+
+mov ah, 0x0e
+mov al, 101
+int 0x10
+
+mov ah, 0x0e
+mov al, 108 
+int 0x10
+
+mov ah, 0x0e
+mov al, 108
+int 0x10
+
+mov ah, 0x0e
+mov al, 111 
+int 0x10
+
+mov ah, 0x0e
+mov al, 44 
+int 0x10
+
+mov ah, 0x0e
+mov al, 32 
+int 0x10
+
+mov ah, 0x0e
+mov al, 87 
+int 0x10
+
+mov ah, 0x0e
+mov al, 111 
+int 0x10
+
+mov ah, 0x0e
+mov al, 114 
+int 0x10
+
+mov ah, 0x0e
+mov al, 108 
+int 0x10
+
+mov ah, 0x0e
+mov al, 100 
+int 0x10
+
+mov ah, 0x0e
+mov al, 33 
+int 0x10
+
+jmp $
+times 510-($-$$) db 0
+db 0x55, 0xaa
