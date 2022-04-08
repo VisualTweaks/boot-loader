@@ -1,5 +1,5 @@
 # Boot Loader!
-Boot Loader/OS which prints "Hello, World".
+Boot loader which prints "Hello, World".
 # Requirements?
 - Linux
 - Nasm
