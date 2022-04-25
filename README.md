@@ -1,10 +1,21 @@
-# Boot Loader!
-Boot loader which prints "Hello, World".
-# Requirements?
-- Linux
-- Nasm
-- qemu
-# How to run?
-Compile: ``nasm -f bin [ASSEMBLY File Name] -o [File Name].bin``
+<h1 align="center">
+	<img src="https://static.thenounproject.com/png/3028948-200.png" width="150px"><br>
+    Boot Loader written in x86 Assembly.
+</h1>
 
-Run: ``qemu-system-x86_64 [File Name].bin``
+### Dependencies
+```
+sudo apt install qemu
+---------------------
+sudo apt install nasm
+```
+### Compiling
+```
+nasm -f bin boot.asm -o boot.bin
+```
+### Running
+```
+qemu-system-x86_64 boot.bin
+```
+### Contributions 🎉
+###### If you're interested in contributing simply open a pull request!
